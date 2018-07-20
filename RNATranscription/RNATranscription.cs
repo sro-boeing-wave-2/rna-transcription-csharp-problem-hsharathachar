@@ -6,7 +6,6 @@ namespace RNATranscriptionModule
     {
         public static string ToRna(string nucleotide)
         {
-            //throw new NotImplementedException("You need to implement this function.");
 
             nucleotide = nucleotide.Replace("G","temp1");
             nucleotide = nucleotide.Replace("C","temp2");
